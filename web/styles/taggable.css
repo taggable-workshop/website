@@ -1,0 +1,29 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Amatic SC";
+    /*font-family: "Indie Flower";*/
+}
+
+/*.jumbotron h1 {*/
+/*font-family: "Amatic SC";*/
+/*}*/
+
+header h1, .card h1 {
+    font-family: "Indie Flower";
+}
+
+header h1 a:active, header h1 a:visited, header h1 a:link {
+    color: #000000;
+}
+
+header h1 a:hover {
+    text-decoration: none;
+    color: #0275d8;
+}
+
+body {
+    font-family: Raleway;
+}
+
+.page-header {
+    margin-bottom: 1em;
+}

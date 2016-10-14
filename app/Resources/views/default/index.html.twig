@@ -1,0 +1,204 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">We <span class="text-danger">&hearts;</span> what we do</h1>
+            <p class="lead">Our passion is using industry-leading technology to deliver the best possible service for
+                our
+                clients.</p>
+            <p class="lead">It's in our <a href="{{ path('homepage') }}">mission statement</a>.</p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-block">
+                        <h1 class="card-title text-lg-center"><i class="fa fa-code text-info"></i> Software
+                        </h1>
+
+                        <p class="card-text">We build creative solutions, driving fresh value into our clients'
+                            businesses. From Wordpress blogs to fully bespoke web applications; we've got you
+                            covered.</p>
+                        {#<ul class="list-group list-group-flush">#}
+                        {#<li class="list-group-item list-group-item-success">Bespoke web development</li>#}
+                        {#<li class="list-group-item list-group-item-success">Existing site support</li>#}
+                        {#<li class="list-group-item list-group-item-success">Existing site migrations</li>#}
+                        {#<li class="list-group-item list-group-item-success">Wordpress support / development</li>#}
+                        {#</ul>#}
+                    </div>
+                    <div class="card-block">
+                        <div class="text-lg-center">
+                            <a href="#" class="btn btn-success">Taggable engineering</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-block">
+                        <h1 class="card-title text-lg-center"><i class="fa fa-comments-o text-info"></i> Consulting
+                        </h1>
+                        <p class="card-text">Need help or advice? Tap into our expert knowledge, curated from years
+                            of
+                            experience in industry-leading roles and relationships.</p>
+                    </div>
+
+
+                    {#<ul class="list-group list-group-flush">#}
+                    {#<li class="list-group-item list-group-item-success">Choosing / setting up web hosting</li>#}
+                    {#<li class="list-group-item list-group-item-success">Choosing the right solution for you</li>#}
+                    {#<li class="list-group-item list-group-item-success">Installing SSL certificates</li>#}
+                    {#<li class="list-group-item list-group-item-success">Identifying training opportunities</li>#}
+                    {#<li class="list-group-item list-group-item-success">Beginning project management</li>#}
+                    {#<li class="list-group-item list-group-item-success">Creating development strategies</li>#}
+                    {#<li class="list-group-item list-group-item-success">Recruiting in-house development staff</li>#}
+                    {#</ul>#}
+                    <div class="card-block">
+                        <div class="text-lg-center">
+                            <a href="#" class="btn btn-success">Taggable consulting</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card card-block">
+                    <h1 class="card-title text-lg-center"><i class="fa fa-lightbulb-o text-info"></i> Innovation</h1>
+                    <p class="card-text">We contribute to the software community by sharing code through our
+                        Open Source <a href="http://www.github.com/taggable-workshop"><i class="fa fa-github"></i>&nbsp;GitHub</a>
+                        repositories. By giving a little back we all move forward together.</p>
+                    <div class="text-lg-center">
+                        <a href="#" class="btn btn-success">Taggable innovation</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12">
+                <hr>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-5">Taggable Clients</h1>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h2>Collins Educational Services</h2>
+                <p><a href="http://www.collinsmaths.com">www.collinsmaths.com</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img src="{{ asset('images/clients/collinsmaths/homepage.png') }}" style="width: 100%;"/>
+            </div>
+            <div class="col-lg-3">
+                <ul class="list-unstyled">
+                    <li>Wordpress development</li>
+                    <li>SEO advice</li>
+                    <li>Website hosting</li>
+                    <li>Ongoing support</li>
+                </ul>
+            </div>
+            <div class="col-lg-5">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dui lectus, convallis sit
+                    amet dapibus at, bibendum vel eros. Nunc eget egestas quam. In hac habitasse platea
+                    dictumst. Praesent magna lorem, pellentesque id egestas molestie, pretium non nulla.
+                    Nulla vel lectus libero. Suspendisse porta urna sed faucibus porta. Donec volutpat et
+                    sem nec vulputate. Suspendisse porta placerat arcu, ut sollicitudin erat.
+                </p>
+            </div>
+
+
+            <div class="col-lg-12">
+                <hr>
+            </div>
+
+
+            <div class="col-lg-12 text-lg-right">
+                <h2>The Big Training Survey</h2>
+                <p><a href="http://www.bigtrainingsurvey.com">www.bigtrainingsurvey.com</a></p>
+            </div>
+            <div class="col-lg-5">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dui lectus, convallis sit
+                    amet dapibus at, bibendum vel eros. Nunc eget egestas quam. In hac habitasse platea
+                    dictumst. Praesent magna lorem, pellentesque id egestas molestie, pretium non nulla.
+                    Nulla vel lectus libero. Suspendisse porta urna sed faucibus porta. Donec volutpat et
+                    sem nec vulputate. Suspendisse porta placerat arcu, ut sollicitudin erat.
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <ul class="list-unstyled">
+                    <li>Bespoke PHP development</li>
+                    <li>Ability to export data to Excel</li>
+                    <li>Website hosting</li>
+                    <li>Facebook application</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <img src="{{ asset('images/clients/bigtrainingsurvey/homepage.png') }}" style="width: 100%;"/>
+            </div>
+
+
+            <div class="col-lg-12">
+                <hr>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-5">From the blog</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-lg-12">
+                <hr>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-5">Featured Tech</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <p>We offer full-stack solutions. That means we work with:
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+{% endblock %}
